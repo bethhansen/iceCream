@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ice Cream</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <form id="dessert" >
+            <select class="form-control" id="iceCream">
+              <option value="3">Mint Chocolate Chip</option>
+              <option value="3">Vanilla</option>
+              <option value="3">Chocolate</option>
+              <option value="3">Strawberry</option>
+            </select>
+            <select class="form-control" id="topping">
+              <option value="1">Hot Fudge</option>
+              <option value=".50">Sprinkles</option>
+              <option value=".75">Strawberries</option>
+              <option value="0">None</option>
+            </select>
+            <select class="form-control" id="cone">
+              <option value="1">Sugar Cone</option>
+              <option value=".50">Regular Cone</option>
+              <option value="2">Waffle Cone</option>
+              <option value="0">Bowl</option>
+            </select>
+            <button type="submit" class="btn" name="button">Place your order</button>
+          </form>
+
+        </div><!--col-md-4-->
+        <div class="orderTotal">
+          <p id="result">
+
+          </p>
+        </div>
+      </div><!--row-->
+    </div><!--container-->
+  </body>
+</html>
